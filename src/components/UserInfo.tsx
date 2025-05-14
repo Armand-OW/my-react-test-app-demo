@@ -14,8 +14,9 @@ function UserInfo() {
 
   return (
     <>
-        <div>{userInfo.name}</div>
-        <input type="number" value={userId} onChange={(e) => setUserId(+e.target.value)} />
+        <h1>User Info</h1>
+        <div data-testid="username">{userInfo.name}</div>
+        <input placeholder="user id" type="number" value={userId} onChange={(e) => setUserId(+e.target.value)} />
         <button onClick={getUserInfo}>Get User Info</button>
     </>
   )

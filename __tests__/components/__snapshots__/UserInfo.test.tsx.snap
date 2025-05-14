@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots of our UserInfo component UserInfo component snapshot 1`] = `
+<DocumentFragment>
+  <h1>
+    User Info
+  </h1>
+  <div
+    data-testid="username"
+  />
+  <input
+    placeholder="user id"
+    type="number"
+    value="0"
+  />
+  <button>
+    Get User Info
+  </button>
+</DocumentFragment>
+`;
